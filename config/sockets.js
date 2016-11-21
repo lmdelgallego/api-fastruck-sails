@@ -43,12 +43,12 @@ module.exports.sockets = {
   //
   // -OR-
   //
-
-  // adapter: 'socket.io-redis',
-  // host: '127.0.0.1',
-  // port: 6379,
+	adapter: 'socket.io-redis',
+  host: 'crestfish.redistogo.com',
+  port: 10355,
+  user: 'redistogo',
+  pass: '0112326b07473e20d23ecfa0b98737bc',
   // db: 0,
-  // pass: '<redis auth password>',
 
 
 
