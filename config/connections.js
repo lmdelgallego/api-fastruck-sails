@@ -58,8 +58,9 @@ module.exports.connections = {
   ***************************************************************************/
   MongodbServer: {
     adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
+	url: 'mongodb://apifast:4p1f4st@ds159497.mlab.com:59497/fastuck-api'
+    // host: 'localhost',
+    // port: 27017,
     // user: 'username', //optional
     // password: 'password', //optional
     // database: 'your_mongo_db_name_here' //optional
